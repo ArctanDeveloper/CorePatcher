@@ -40,7 +40,7 @@ namespace CorePatcher.Examples
 
             // And finally we emit the following instruction this._cachedTitle = "Terraria Exemple Core modding!"
             ilCursor.EmitLdarg0();
-            ilCursor.Emit(OpCodes.Ldstr, "Terraria Exemple Core modding!");
+            ilCursor.Emit(OpCodes.Ldstr, "Terraria Example Core modding!");
             ilCursor.EmitStfld(type.Fields.FirstOrDefault(f => f.Name == "_cachedTitle"));
         }
 
