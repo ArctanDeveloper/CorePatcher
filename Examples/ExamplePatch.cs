@@ -8,7 +8,7 @@ using CorePatcher.Configs;
 using CorePatcher.Examples;
 using Terraria.ModLoader;
 
-namespace CorePatcher.Exemples
+namespace CorePatcher.Examples
 {
     [PatchType("Terraria.Main")]
     internal class ExamplePatch : ModCorePatch
